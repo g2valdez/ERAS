@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-	private Vector3 absolutePosition = new Vector3(0,0,0);
+	private Vector3 absolutePosition = new Vector3(0,0,-0.1f);
 	public Vector3[] displacements = new Vector3[3];
 	private int era = 1;
 	private float xBound = 2.5f;
 	private float yBound = 1.3f;
 	// Use this for initialization
 	void Start () {
-		displacements[0] = new Vector3(-5.9f, 0.0f, 0.0f);
+		displacements[0] = new Vector3(-5.95f, 0.0f, 0.0f);
 		displacements[1] = new Vector3(0.0f, 0.0f, 0.0f);
-		displacements[2] = new Vector3(5.9f, 0.0f, 0.0f);
+		displacements[2] = new Vector3(5.95f, 0.0f, 0.0f);
 	}
 	
 	// Update is called once per frame
