@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 702c1de551fe14aa488a6cb94caf92a6
+timeCreated: 1515991842
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - birthTile: {fileID: 11400000, guid: b2a51959b5543400c821282ca1f8182d, type: 2}
+  - lifeTile: {fileID: 11400000, guid: fea7007c48fb54dcbb56a567cd5208c1, type: 2}
+  - deathTile: {fileID: 11400000, guid: fe72592dc978346c5b5ff95158afbcc5, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
